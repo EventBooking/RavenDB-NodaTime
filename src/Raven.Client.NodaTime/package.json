@@ -1,0 +1,15 @@
+{
+  "name": "raven.client.nodatime",
+  "version": "1.0.0",
+  "description": "",
+  "main": "publish.js",
+  "dependencies": {
+    "@eventbooking/nuget": "^1.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node publish.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

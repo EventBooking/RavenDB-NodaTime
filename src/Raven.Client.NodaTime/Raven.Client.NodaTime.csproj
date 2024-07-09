@@ -1,7 +1,8 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <PackageId>RavenDB.Client.NodaTime</PackageId>
-    <Title>Noda Time support for RavenDB</Title>
+    <Title>Noda Time support for RavenDB - updates by Momentus Technologies</Title>
     <Description>Provides NodaTime support for the RavenDB Client.</Description>
     <Authors>Matt Johnson;Ryan Heath</Authors>
     <PackageTags>ravendb;raven db;noda time;nodatime</PackageTags>
@@ -11,15 +12,16 @@
     <PackageIcon>logo-for-nuget.png</PackageIcon>
     <IncludeSource>True</IncludeSource>
     <IncludeSymbols>True</IncludeSymbols>
-    <Version>5.4.1</Version>
+    <Version>6.0.1</Version>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="NodaTime" Version="3.1.11" />
-    <PackageReference Include="RavenDB.Client" Version="6.0.104" />
+    <PackageReference Include="NodaTime" Version="3.1.11"/>
+    <PackageReference Include="RavenDB.Client" Version="6.0.104"/>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\..\LICENSE.txt" Pack="true" PackagePath="$(PackageLicenseFile)" />
-    <None Include="..\..\logo-for-nuget.png" Pack="true" PackagePath="\" />
+    <None Include="..\..\LICENSE.txt" Pack="true" PackagePath="$(PackageLicenseFile)"/>
+    <None Include="..\..\logo-for-nuget.png" Pack="true" PackagePath="\"/>
   </ItemGroup>
 </Project>

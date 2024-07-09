@@ -109,3 +109,4 @@ UpgradeLog*.XML
 
 /.vs
 /.idea
+/src/Raven.Client.NodaTime/node_modules
